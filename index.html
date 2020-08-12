@@ -1,30 +1,33 @@
-    <!-- This is a declaration to the browser of what type of file it is dealing with, which is HTML5. Requires
-        this declaration with opening tag at the top, and the closing </html> at the bottom -->
+<!-- This is a declaration to the browser what type of file it's dealing with, which is HTML5. Requires
+    opening tag at the top, and the closing </html> at the bottom -->
 <!DOCTYPE html>
-    <!-- Specifies that the document will be in English -->
-
+<!-- Specifies that the document will be in English -->
 <html lang="en">
-    <!-- Head element contains meta information about the HTML page,
-        Metadata is not displayed, defines the document title, character set, styles, scripts, and other meta info 
-        like links to style sheets-->
 
+<!-- Head element contains meta information about the HTML page:
+        Metadata is not displayed
+        Defines the document title, character set, styles, and other meta info-->
 <head>
-    <!-- The meta tag tells the browser which character set to use, most modern browsers default so you 
-        don't necessarily have to include this but it's good practice. Declares things like an @ is an @ symbol-->
+    <!-- The meta tag tells the browser which character set to use, declares things like an @ is an @ symbol-->
     <meta charset="utf-8">
     <!--Specifies a title for the HTML page which shows in the browsers title bar-->
     <title>Whit HTML Webpage</title>
-    <meta name="description" content="The HTML5 Herald">
-    <meta name="author" content="SitePoint">
+    <!-- You can add as many meta tags as you want; I'm just adding author, more examples below
 
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <meta name="description" content="Learning HTML basics">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  ***this one controls how it loads & looks** -->
+    <meta name="author" content="Whitney Broadfoot">
+    <!--How you link to your other files for styling like css or bootstrap-->
+    <link rel="stylesheet" href="style.css">
 
 </head>
-    <!--element defines the document's body, and is a container for all the visible contents, such as headings,
+<!--element defines the document's body, and is a container for all the visible contents, such as headings,
         paragraphs, images, hyperlinks, tables, lists, etc.-->
 
 <body>
-    <script src="js/scripts.js"></script>
+    <!-- Best practice is to nest the java-->
+    <script src="script.js"></script>
 </body>
 
 </html>
